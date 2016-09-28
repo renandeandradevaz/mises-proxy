@@ -14,7 +14,7 @@ app.get('/', function (req, res) {
    var content = "";
 
     $(".thumbsArticle").each(function() {
-      content += "<a href='/article?article=" + $(this).attr("href") + "' >" + $(this).text()$
+      content += "<a href='/article?article=" + $(this).attr("href") + "' >" + $(this).text() + "</a>";
       content += "<br> <br>";
     });
 
